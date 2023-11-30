@@ -1,6 +1,11 @@
+import StudentList from "./components/StudentList";
 
 function App() {
-  return <div></div>
+  return (
+    <div>
+      <StudentList />
+    </div>
+  );
 }
 
 export default App;
